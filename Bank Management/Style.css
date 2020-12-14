@@ -1,0 +1,141 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Images/Mobile_Banking.jpg");
+}
+
+.cover {
+    background: url("Images/pictur2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration {
+    background: url("Images/pictur2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.5vw;
+    height: 76.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Image1 {
+    width: 30vw;
+    height: 65vh;
+}
+
+#Image2 {
+    width: 40vw;
+    height: 74vh;
+}
+
+.elements {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    width: 30vw;
+    height: 65vh;
+    box-shadow: black 0px 40px 60px;
+}
+
+.register {
+    width: 40vw;
+    height: 80vh;
+    box-shadow: black 2px 40px 60px;
+}
+
+#Label1 {
+    display: block;
+    padding-top: 7vh;
+    padding-left: 7.5vw;
+    font-size: 6vw;
+    font-size: 8vh;
+    font-family: 'Leckerli One','Algerian','Verdana';
+    text-shadow: black 0px 20px 20px;
+    color: red;
+}
+
+#Label3 {
+    display: block;
+    padding-top: 7vh;
+    padding-left: 7.5vw;
+    font-size: 4vw;
+    font-size: 8vh;
+    font-family: 'Leckerli One','Algerian','Verdana';
+    text-shadow: black 0px 20px 20px;
+    color: red;
+}
+
+
+
+.txt1 {
+    margin-top: 4vh;
+    margin-left: 6vw;
+}
+
+.txt2 {
+    margin-top: 7.4vh;
+    margin-left: 2vw;
+}
+
+
+    .txt1[placeholder], .txt2[placeholder] {
+        font-family: 'Oleo Script Swash Caps';
+        font-size: 2vw;
+        padding-left: 6vw;
+    }
+
+.txtstyle {
+    width: 20vw;
+    height: 6vh;
+    border: 0;
+    border-radius: 4%;
+    background-color: rgba(252,251,251,0.80);
+    box-shadow: black 0px 30px 50px;
+}
+
+.btnstyle {
+    margin-top: 10vh;
+    width: 11vw;
+    height: 7vh;
+    margin-left: 1.5vw;
+    font-family: 'Oleo Script Swash Caps';
+    font-size: 2vw;
+    border: 1px;
+    color: yellow;
+    text-shadow: black 0px 10px 10px;
+    background-color: green;
+}
+
+    .btnstyle:hover {
+        background-color: blue;
+        box-shadow: black 0px 90px 80px;
+    }
